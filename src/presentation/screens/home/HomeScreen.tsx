@@ -85,7 +85,7 @@ export const HomeScreen = () => {
               icon={item.icon}
               component={item.component}
               isFirst={index === 0 ? true : false}
-              isLast={index === menuItems.length - 1}
+              isLast={index === animationMenuItems.length - 1}
             />
           ))}
           <View style={{marginTop: 30}} />
@@ -109,7 +109,7 @@ export const HomeScreen = () => {
               icon={item.icon}
               component={item.component}
               isFirst={index === 0 ? true : false}
-              isLast={index === menuItems.length - 1}
+              isLast={index === uiMenuItems.length - 1}
             />
           ))}
           <View style={{marginTop: 30}} />
