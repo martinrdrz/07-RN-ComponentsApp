@@ -21,7 +21,7 @@ export const MenuItem = ({
   const navigation = useNavigation<any>();
 
   return (
-    <Pressable onPress={() => console.log('Click/tap')}>
+    <Pressable onPress={() => navigation.navigate(component)}>
       <View
         style={{
           ...styles.container,
@@ -42,7 +42,7 @@ export const MenuItem = ({
           size={25}
           style={{marginRight: 10, color: colors.primary}}
         />
-        <Text style={{color: colors.text}}>{name}</Text>
+        <Text style={{color: colors.text, fontSize: 20}}>{name}</Text>
         <Icon
           name="chevron-forward-outline"
           size={25}
