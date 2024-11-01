@@ -1,4 +1,4 @@
-package com.componentsapp
+package com.martinrdrz.rncomponentsapp
 
 import android.os.Bundle;
 
